@@ -2,6 +2,8 @@
 <div>
   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eos, obcaecati quia ad aspernatur consequatur facere dolor, explicabo, provident tempora accusantium nesciunt. Ipsum rerum unde labore, fugit numquam ullam cumque!
 </div>
+<img src="./assets/images/portfolio.png" alt="HTML & JavaScript in VS Code on a MacBook Air M3 Display" width="300" />
+
 # Table of Contents
 
 - [Introduction](#introduction)
