@@ -1,0 +1,18 @@
+# Environment-specific files
+.env
+
+# Jest coverage reports
+coverage/
+
+# Logs or temporary files
+logs/
+*.log
+tmp/
+*.tmp
+
+# macOS
+.DS_Store
+
+# Node.js
+node_modules/
+npm-debug.log
