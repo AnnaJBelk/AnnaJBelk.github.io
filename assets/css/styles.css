@@ -1,0 +1,109 @@
+/* styles.css */
+
+/* 1. Global Styles */
+.fa-linkedin {
+  color: #0077b5;
+}
+
+.fa-github {
+  color: #000;
+}
+
+/* 2. Layout Styles */
+/* Curtain style */
+.curtain {
+  position: fixed;
+  top: 56px;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #f8f9fa;
+  overflow: hidden;
+  transition: height 0.5s ease;
+  z-index: 1000;
+}
+
+/* Dropdown menu inside the curtain */
+.curtain .dropdown-menu {
+  position: relative;
+  top: 20px;
+  left: 15px;
+  background-color: transparent;
+  border: none;
+  display: block;
+  padding: 0;
+}
+
+/* Centering the content */
+#welcome {
+  margin-top: 80px;
+}
+
+/* Profile Photo Styling */
+.profile-photo {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  background-color: #f8f9fa; /* Match navbar background */
+  color: #000; /* Default text color */
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* 3. Component Styles */
+/* Remove Caret */
+.navbar .dropdown-toggle::after {
+  display: none;
+}
+
+/* Hover effects for navbar items */
+.nav-link:hover {
+  color: #0077b5 !important;
+}
+
+/* Show curtain on hover */
+.nav-item.dropdown:hover .curtain {
+  height: 33vh;
+}
+
+/* Dropdown item styles */
+.dropdown-item {
+  color: #0077b5 !important;
+  padding: 10px 20px;
+}
+
+/* Remove Blue Border on Click */
+.navbar .nav-link:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+footer a {
+  color: #000;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #0077b5;
+}
+
+/* Hover effects for social media icons */
+.fa-linkedin:hover {
+  color: #fff;
+  background-color: #0077b5;
+}
+
+.fa-github:hover {
+  color: #0077b5;
+}
+
+/* 4. Utility Classes */
+/* Spacing between elements */
+.footer-separator {
+  margin: 0 15px;
+}
+
+/* 5. Media Queries */
