@@ -105,5 +105,8 @@ footer a:hover {
 .footer-separator {
   margin: 0 15px;
 }
+.font-normal {
+  font-weight: normal;
+}
 
 /* 5. Media Queries */
