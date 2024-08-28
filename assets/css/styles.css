@@ -34,7 +34,7 @@
   padding: 0;
 }
 
-/* Centering the content */
+/* Push "Welcome" message away from nav */
 #welcome {
   margin-top: 80px;
 }
@@ -107,6 +107,9 @@ footer a:hover {
 }
 .font-normal {
   font-weight: normal;
+}
+.heading-offset {
+  margin-top: 10px;
 }
 
 /* 5. Media Queries */
